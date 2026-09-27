@@ -1,0 +1,6 @@
+{
+  "name": "تۆماری نمرەی قوتابیان - Student Grade Register",
+  "description": "سیستەمی پێشکەوتووی تۆمارکردن و بەڕێوەبردنی نمرەی قوتابیان بە زمانی کوردی، بە هەژمارکردنی خۆکار و پاشەکەوتکردن",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

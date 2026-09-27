@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: "Vazirmatn", "Noto Kufi Arabic", "Segoe UI", system-ui, -apple-system, sans-serif;
+  }
+}
+
+/* Custom scrollbar styling for wide grade tables */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1ede4;
+}
+::-webkit-scrollbar-thumb {
+  background: #c8c3b7;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #a9a396;
+}
+
+@media print {
+  body {
+    background: white !important;
+    color: black !important;
+    padding: 0 !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  .table-wrap {
+    overflow: visible !important;
+    border: none !important;
+  }
+  table {
+    border-collapse: collapse !important;
+    width: 100% !important;
+    font-size: 11px !important;
+  }
+  th, td {
+    border: 1px solid #999 !important;
+    padding: 4px !important;
+  }
+}
